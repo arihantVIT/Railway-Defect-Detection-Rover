@@ -1,0 +1,20 @@
+# Local Python environment
+railway_env/
+
+# Generated run output
+runs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor files
+.vscode/
+
+# OS metadata
+.DS_Store

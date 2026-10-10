@@ -1,0 +1,630 @@
+#VRML_SIM R2025a utf8
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.13086896758160713 0.09038812481919578 0.9872706316992284 1.8135897538408419
+  position 2.1167342217689087 -23.18460841725177 2.6839639388233203
+}
+Background {
+  skyColor [
+    0.45 0.62 0.78
+  ]
+}
+DirectionalLight {
+  ambientIntensity 0.35
+  direction 0.2 -0.4 -1
+  intensity 0.8
+}
+Solid {
+  translation 0 0 -0.1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.25 0.29 0.27
+        roughness 1
+      }
+      geometry Box {
+        size 10 50 0.2
+      }
+    }
+  ]
+  name "Ground"
+  boundingObject Box {
+    size 10 50 0.2
+  }
+}
+Solid {
+  translation 0 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.32 0.3 0.26
+        roughness 1
+      }
+      geometry Box {
+        size 4 44 0.4
+      }
+    }
+  ]
+  name "Track bed"
+  boundingObject Box {
+    size 4 44 0.4
+  }
+}
+Solid {
+  translation 0 0 0.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.38 0.39 0.37
+        roughness 1
+      }
+      geometry Box {
+        size 3.5 42 0.2
+      }
+    }
+  ]
+  name "Ballast"
+  boundingObject Box {
+    size 3.5 42 0.2
+  }
+}
+Solid {
+  translation -0.72 0 0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.55 0.58 0.59
+        roughness 0.3
+        metalness 0.75
+      }
+      geometry Box {
+        size 0.16 42 0.22
+      }
+    }
+  ]
+  name "Left rail"
+  boundingObject Box {
+    size 0.16 42 0.22
+  }
+}
+Solid {
+  translation 0.72 0 0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.55 0.58 0.59
+        roughness 0.3
+        metalness 0.75
+      }
+      geometry Box {
+        size 0.16 42 0.22
+      }
+    }
+  ]
+  name "Right rail"
+  boundingObject Box {
+    size 0.16 42 0.22
+  }
+}
+Solid {
+  translation 0 -20 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -20"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -18 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -18"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -16 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -16"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -14 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -14"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -12 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -12"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -10 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -10"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -8 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -8"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -6 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -6"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -4 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -4"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 -2 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper -2"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 0 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 0"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 2 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 2"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 4 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 4"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 6 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 6"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 8 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 8"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 10 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 10"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 12 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 12"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 14 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 14"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 16 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 16"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 18 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 18"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Solid {
+  translation 0 20 0.69
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.28 0.19 0.12
+        roughness 1
+      }
+      geometry Box {
+        size 2.8 0.3 0.18
+      }
+    }
+  ]
+  name "Sleeper 20"
+  boundingObject Box {
+    size 2.8 0.3 0.18
+  }
+}
+Robot {
+  translation -0.00306262 -19.5872 1.26647
+  rotation -0.9993504234371728 0.009249651199709594 -0.03483066362599218 0.00555760087406653
+  children [
+    Solid {
+      translation 0 0.38 0.2
+      children [
+        Camera {
+          translation 0 0.06 0.16
+          rotation 0 0 1 1.57
+          name "cam"
+          width 640
+          height 480
+        }
+        DEF rod Shape {
+          appearance PBRAppearance {
+            baseColor 0.109804 0.443137 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.3
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject USE rod
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 266.0696439896381
+        axis -1 0 0
+        anchor 0.75 0.29 -0.07
+      }
+      device [
+        RotationalMotor {
+          name "motor-1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.75 0.2900328986104854 -0.07002275261365488
+        rotation -0.6633116419959101 -0.34747016128322594 0.6627836393654409 2.472260136469189
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 1 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.1
+              radius 0.12
+            }
+          }
+        ]
+        boundingObject USE wheel
+        physics DEF wheel_physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 266.0707465618264
+        axis -1 0 0
+        anchor 0.75 -0.32 -0.07
+      }
+      device [
+        RotationalMotor {
+          name "motor-4"
+        }
+      ]
+      endPoint Solid {
+        translation 0.75 -0.32 -0.07
+        rotation -0.6634189249944478 -0.34706061174698655 0.6628908369656493 2.4729915445955863
+        children [
+          USE wheel
+        ]
+        name "solid(3)"
+        boundingObject USE wheel
+        physics USE wheel_physics
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 266.0729326471735
+        axis -1 0 0
+        anchor -0.75 -0.32 -0.07
+      }
+      device [
+        RotationalMotor {
+          name "motor-3"
+        }
+      ]
+      endPoint Solid {
+        translation -0.75 -0.32 -0.07
+        rotation -0.663631182007854 -0.34624870410773145 0.6631029250203735 2.4744420671024967
+        children [
+          USE wheel
+        ]
+        name "solid(2)"
+        boundingObject USE wheel
+        physics USE wheel_physics
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 266.0730477053088
+        axis -1 0 0
+        anchor -0.75 0.29 -0.07
+      }
+      device [
+        RotationalMotor {
+          name "motor_2"
+        }
+      ]
+      endPoint Solid {
+        translation -0.749944 0.29 -0.07
+        rotation -0.6636423368022769 -0.3462059758741933 0.6631140709354694 2.4745184239105615
+        children [
+          USE wheel
+        ]
+        name "solid(1)"
+        boundingObject USE wheel
+        physics USE wheel_physics
+      }
+    }
+    DEF body Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 1.4 1 0.12
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+  }
+  controller "railway_rover"
+}
